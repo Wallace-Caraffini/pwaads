@@ -53,8 +53,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/pwa/",
-  "scope": "/pwa/",
+  "start_url": "/pwaads/",
+  "scope": "/pwaads/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000"
