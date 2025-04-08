@@ -54,49 +54,45 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4">
-                <h1 class="d-flex justify-content-center">Giant Panda</h1>
-                <img class="img-fluid" src="panda.png" alt="é um panda">
+                <h1 class="d-flex justify-content-center">Sobre Mim</h1>
+                <img class="img-fluid" src="perfil.png" alt="sou eu">
             </div>
             <div class="col-12 col-md-8 d-flex align-items-center">
-                <p>O panda gigante, com sua pelagem característica em preto e branco, é um dos animais mais adoráveis do
-                    mundo. Nativo das florestas de bambu da China, ele passa a maior parte do seu dia comendo bambu, sua
-                    principal fonte de alimento. Apesar de ser um carnívoro, sua dieta é composta em sua maioria por
-                    plantas. Infelizmente, o panda gigante é considerado uma espécie vulnerável devido à perda de
-                    habitat e à baixa taxa de reprodução. Por isso, esforços de conservação têm sido feitos para
-                    proteger esse símbolo da natureza e garantir sua sobrevivência para as futuras gerações.</p>
+                <p>Olá! Meu nome é Wallace Caraffini de Oliveira e sou estudante de Análise e Desenvolvimento de
+                    Sistemas. Sou
+                    apaixonado por tecnologia e estou sempre buscando aprender e crescer na área.</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 order-md-last">
-                <h1 class="d-flex justify-content-center">Sea turtle</h1>
-                <img class="img-fluid" src="sea_turtle.jpg" alt="é uma tarturuga marinha">
-            </div>
-            <div class="col-12 col-md-8 d-flex align-items-center order-md-first">
-                <p>A tartaruga marinha é um animal fascinante que passa a maior parte de sua vida no oceano. Com um
-                    casco resistente e uma incrível capacidade de migração, ela percorre vastas distâncias entre os
-                    continentes. As tartarugas marinhas são essenciais para os ecossistemas marinhos, ajudando na
-                    manutenção da saúde dos recifes de corais e controlando a população de medusas. No entanto, elas
-                    enfrentam várias ameaças, como a poluição do mar e a caça ilegal de seus ovos. A proteção das
-                    tartarugas marinhas é crucial para preservar o equilíbrio dos oceanos e a biodiversidade marinha.
-                </p>
-            </div>
-        </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+            <div class="col-12 col-md-8 d-flex align-items-center">
+                <p>Sou estudante de Análise e Desenvolvimento de Sistemas, atualmente no terceiro semestre da faculdade,
+                    com um ano e meio de experiência acadêmica na área de tecnologia.
 
-    <script>
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", function () {
-                navigator.serviceWorker
-                    .register("pwa/service-worker.js")
-                    .then(res => console.log("service worker registered"))
-                    .catch(err => console.log("service worker not registered", err))
-            })
-        }
-    </script>
+                    Apaixonado por inovação, estou sempre em busca de novos conhecimentos para crescer pessoal e
+                    profissionalmente. Durante minha trajetória, estudei disciplinas como Lógica de Programação,
+                    Estruturas de Dados, Programação Orientada a Objetos, Banco de Dados, Desenvolvimento Web e Desenvolvimento mobile.
+                    </p>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex">
+                <button class="btn btn-primary btn-lg w-100 w-md-auto">Contato</button>
+                <button class="btn btn-secondary btn-lg w-100 w-md-auto">Localização</button>
+              </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+
+            <script>
+                if ("serviceWorker" in navigator) {
+                    window.addEventListener("load", function () {
+                        navigator.serviceWorker
+                            .register("pwa/service-worker.js")
+                            .then(res => console.log("service worker registered"))
+                            .catch(err => console.log("service worker not registered", err))
+                    })
+                }
+            </script>
 </body>
 
 </html>
